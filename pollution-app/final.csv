@@ -1,0 +1,450 @@
+state,location,type,so2,no2
+,,,mean,mean
+andhra pradesh,ananthapur,residential,4.65,11.19
+andhra pradesh,chittoor,residential,4.98,10.71
+andhra pradesh,chittoor,sensitive area,4.41,11.15
+andhra pradesh,eluru,residential,5.13,20.83
+andhra pradesh,guntur,residential,4.27,16.2
+andhra pradesh,hyderabad,industrial area,5.41,28.39
+andhra pradesh,hyderabad,residential,5.52,25.67
+andhra pradesh,hyderabad,sensitive area,4.57,16.39
+andhra pradesh,kadapa,industrial area,4.64,10.39
+andhra pradesh,kakinada,residential,9.71,18.93
+andhra pradesh,karimnagar,residential,6.73,11.89
+andhra pradesh,khammam,residential,3.97,14.04
+andhra pradesh,kurnool,residential,4.16,10.65
+andhra pradesh,nalgonda,industrial area,4.11,16.68
+andhra pradesh,nalgonda,residential,4.29,17.97
+andhra pradesh,nellore,residential,4.28,16.94
+andhra pradesh,nizamabad,residential,4.81,12.41
+andhra pradesh,ongole,residential,4.71,22.39
+andhra pradesh,patancheru,residential,9.92,22.95
+andhra pradesh,rajahmundry,industrial area,9.59,17.63
+andhra pradesh,ramagundam,residential,6.57,14.07
+andhra pradesh,sangareddy,industrial area,13.47,22.69
+andhra pradesh,sangareddy,residential,4.91,12.24
+andhra pradesh,srikakulam,industrial area,11.47,20.13
+andhra pradesh,tirupati,sensitive area,4.18,10.93
+andhra pradesh,vijayawada,industrial area,5.99,25.99
+andhra pradesh,vijayawada,residential,5.2,24.31
+andhra pradesh,visakhapatnam,industrial area,9.73,19.49
+andhra pradesh,visakhapatnam,residential,11.6,25.95
+andhra pradesh,visakhapatnam,sensitive area,9.73,22.69
+andhra pradesh,vizianagaram,industrial area,11.92,21.53
+andhra pradesh,warangal,residential,5.72,11.56
+arunachal pradesh,itanagar,residential,3.38,6.16
+arunachal pradesh,naharlagun,residential,2.97,4.72
+assam,bongaigaon,residential,5.97,13.12
+assam,daranga,residential,5.66,13.39
+assam,dibrugarh,residential,6.02,13.39
+assam,golaghat,residential,6.07,13.8
+assam,guwahati,residential,7.15,15.36
+assam,hailakandi,residential,5.74,12.85
+assam,lakhimpur,residential,6.39,14.63
+assam,margherita,residential,8.75,18.38
+assam,nagaon,residential,6.76,14.16
+assam,nalbari,residential,6.6,15.68
+assam,sibsagar,residential,4.96,11.75
+assam,silchar,residential,5.57,14.46
+assam,silcher,residential,6.39,14.88
+assam,sivasagar,residential,6.54,13.74
+assam,tezpur,residential,5.85,12.71
+assam,tinsukia,residential,6.3,13.44
+bihar,dhanbad,residential,35.28,41.31
+bihar,jamshedpur,industrial area,43.55,45.21
+bihar,jamshedpur,residential,51.3,51.05
+bihar,jharia,industrial area,39.62,46.46
+bihar,patna,residential,9.48,34.8
+bihar,sindri,industrial area,35.96,43.78
+chandigarh,chandigarh,industrial area,3.57,25.88
+chandigarh,chandigarh,residential,2.41,19.72
+chhattisgarh,bhilai,industrial area,11.5,30.83
+chhattisgarh,bhilai,residential,7.48,18.56
+chhattisgarh,bhilai nagar,industrial area,24.74,31.39
+chhattisgarh,bhilai nagar,residential,14.86,22.35
+chhattisgarh,bilaspur,residential,5.62,21.61
+chhattisgarh,korba,residential,12.81,20.26
+chhattisgarh,raipur,industrial area,14.41,39.1
+chhattisgarh,raipur,residential,14.22,38.29
+dadra & nagar haveli,khadoli,industrial area,8.61,20.08
+dadra & nagar haveli,silvassa,industrial area,9.37,17.36
+dadra & nagar haveli,silvassa,residential,9.97,17.5
+daman & diu,daman,industrial area,8.65,19.28
+daman & diu,daman,residential,9.64,16.52
+daman & diu,daman diu & nagar,industrial area,6.72,7.08
+daman & diu,daman diu & nagar,residential,5.21,5.9
+delhi,delhi,industrial area,10.4,51.18
+delhi,delhi,residential,7.68,55.35
+goa,amona,residential,6.97,12.04
+goa,assanora,residential,6.5,11.37
+goa,bicholim,residential,6.71,12.23
+goa,codli,residential,6.87,12.13
+goa,cuncolim,industrial area,3.88,8.63
+goa,curchorem,residential,5.93,12.48
+goa,honda,residential,7.54,12.71
+goa,kundaim,industrial area,5.41,10.98
+goa,mapusa,residential,8.66,11.26
+goa,margao,residential,5.12,10.32
+goa,mormugao,industrial area,5.63,13.75
+goa,panaji,residential,5.17,13.54
+goa,ponda,residential,4.94,10.07
+goa,sanguem,residential,5.46,10.38
+goa,tilamol,residential,5.62,10.51
+goa,usgao,residential,8.38,11.83
+goa,vasco,industrial area,5.66,13.74
+gujarat,ankleshwar,residential,18.94,22.9
+gujarat,ahmedabad,industrial area,15.14,24.65
+gujarat,ahmedabad,residential,13.53,20.79
+gujarat,ankleshwar,industrial area,22.78,26.84
+gujarat,ankleshwar,residential,19.72,22.32
+gujarat,anklesvar,industrial area,23.58,30.19
+gujarat,anklesvar,residential,18.68,26.06
+gujarat,baroda,industrial area,25.66,27.88
+gujarat,baroda,residential,24.91,23.38
+gujarat,bharuch,residential,13.42,20.79
+gujarat,bhuj,residential,13.38,20.71
+gujarat,jamnagar,residential,11.65,24.19
+gujarat,morbi,residential,13.72,20.65
+gujarat,rajkot,industrial area,13.04,19.0
+gujarat,rajkot,residential,11.32,15.52
+gujarat,sanand,residential,14.04,21.3
+gujarat,sarigam,residential,14.0,21.04
+gujarat,surat,industrial area,23.48,28.47
+gujarat,surat,residential,18.58,25.15
+gujarat,vapi,residential,12.58,19.71
+gujarat,vadodara,industrial area,20.92,37.1
+gujarat,vadodara,residential,13.11,21.53
+gujarat,vapi,industrial area,20.09,28.63
+gujarat,vapi,residential,16.62,25.4
+haryana,dharuhera,industrial area,37.8,32.1
+haryana,faridabad,industrial area,16.7,31.18
+haryana,faridabad,residential,14.84,26.7
+haryana,hisar,residential,6.9,7.55
+haryana,yamuna nagar,industrial area,20.52,20.16
+haryana,yamunanagar,industrial area,14.88,29.96
+himachal pradesh,baddi,industrial area,2.78,18.26
+himachal pradesh,baddi,residential,2.11,23.24
+himachal pradesh,damtal,residential,2.59,12.62
+himachal pradesh,dharamshala,residential,2.0,9.86
+himachal pradesh,kala amb,industrial area,3.37,16.67
+himachal pradesh,kala amb,residential,2.25,14.61
+himachal pradesh,manali,residential,2.27,10.4
+himachal pradesh,nahan,industrial area,3.02,18.9
+himachal pradesh,nahan,residential,2.72,18.45
+himachal pradesh,nalagarh,residential,2.15,23.02
+himachal pradesh,paonta sahib,industrial area,2.62,14.02
+himachal pradesh,paonta sahib,residential,2.17,13.63
+himachal pradesh,parwanoo,industrial area,2.78,12.47
+himachal pradesh,parwanoo,residential,2.47,10.83
+himachal pradesh,shimla,residential,4.12,14.78
+himachal pradesh,shimla,sensitive area,2.86,9.63
+himachal pradesh,sunder nagar,residential,2.11,9.61
+himachal pradesh,una,industrial area,2.17,6.5
+himachal pradesh,una,residential,2.37,6.4
+jammu & kashmir,jammu,industrial area,9.09,13.81
+jammu & kashmir,jammu,residential,6.33,11.5
+jharkhand,dhanbad,industrial area,15.24,36.7
+jharkhand,dhanbad,residential,15.86,43.4
+jharkhand,jamshedpur,industrial area,37.39,49.71
+jharkhand,jharia,industrial area,16.58,45.07
+jharkhand,ranchi,residential,18.95,35.44
+jharkhand,saraikela kharsawan,residential,35.29,45.42
+jharkhand,sindri,industrial area,15.99,41.89
+jharkhand,west singhbhum,industrial area,20.95,30.72
+karnataka,bangalore,industrial area,14.51,33.46
+karnataka,bangalore,residential,14.17,34.37
+karnataka,bangalore,sensitive area,11.07,28.96
+karnataka,belgaum,industrial area,2.37,14.42
+karnataka,bidar,residential,6.06,13.27
+karnataka,bijapur,residential,2.24,16.59
+karnataka,chitradurga,residential,3.04,5.62
+karnataka,davangere,industrial area,4.17,7.25
+karnataka,davangere,residential,6.88,11.2
+karnataka,dharwad,industrial area,5.97,17.24
+karnataka,domlur,residential,6.8,12.52
+karnataka,gulbarga,residential,2.78,14.17
+karnataka,gulbarga,sensitive area,3.55,13.4
+karnataka,hassan,residential,5.13,20.52
+karnataka,hubli,residential,6.03,17.1
+karnataka,hubli-dharwad,industrial area,4.14,11.15
+karnataka,hubli-dharwad,residential,4.26,10.75
+karnataka,kolar,residential,5.81,13.09
+karnataka,mandya,residential,10.83,22.18
+karnataka,mangalore,industrial area,7.4,7.2
+karnataka,mysore,industrial area,15.96,23.93
+karnataka,mysore,residential,11.78,21.3
+karnataka,raichur,residential,7.48,11.54
+karnataka,ranebennur,industrial area,3.99,6.91
+karnataka,shimoga,industrial area,4.34,7.45
+karnataka,tumkur,residential,7.55,19.45
+kerala,alappuzha,industrial area,2.57,4.73
+kerala,alappuzha,residential,2.5,4.69
+kerala,cochin,industrial area,10.35,15.6
+kerala,cochin,residential,10.58,14.66
+kerala,kochi,industrial area,4.64,9.24
+kerala,kochi,residential,3.62,12.41
+kerala,kollam,industrial area,4.77,14.09
+kerala,kollam,residential,3.28,14.89
+kerala,kottayam,industrial area,5.04,17.51
+kerala,kottayam,residential,5.93,21.17
+kerala,kotttayam,residential,2.28,18.25
+kerala,kozhikode,industrial area,2.03,11.95
+kerala,kozhikode,residential,2.06,15.16
+kerala,malappuram,industrial area,2.0,6.96
+kerala,palakkad,industrial area,3.71,8.24
+kerala,pathanamthitta,residential,2.0,13.63
+kerala,thiruvananthapuram,industrial area,16.18,19.77
+kerala,thiruvananthapuram,residential,7.0,24.67
+kerala,thiruvananthapuram,sensitive area,7.73,23.71
+kerala,thissur,residential,2.0,11.07
+kerala,trivandrum,industrial area,17.41,19.12
+kerala,trivandrum,residential,6.7,26.44
+kerala,wayanad,sensitive area,2.01,6.01
+madhya pradesh,amlai,industrial area,15.05,23.5
+madhya pradesh,bhilai,industrial area,26.84,31.18
+madhya pradesh,bhilai,residential,19.89,29.54
+madhya pradesh,bhopal,industrial area,5.52,15.87
+madhya pradesh,bhopal,residential,5.39,18.21
+madhya pradesh,chhindwara,industrial area,8.44,32.11
+madhya pradesh,chhindwara,residential,6.92,30.28
+madhya pradesh,dewas,industrial area,16.74,23.21
+madhya pradesh,dewas,residential,15.38,21.71
+madhya pradesh,gwalior,residential,10.28,18.45
+madhya pradesh,indore,industrial area,12.46,19.14
+madhya pradesh,indore,residential,9.47,16.61
+madhya pradesh,jabalpur,industrial area,7.61,38.23
+madhya pradesh,jabalpur,residential,2.0,21.58
+madhya pradesh,nagda,industrial area,29.32,18.56
+madhya pradesh,nagda,residential,18.43,26.87
+madhya pradesh,pithampur,industrial area,8.15,17.77
+madhya pradesh,sagar,residential,3.58,15.0
+madhya pradesh,satna,industrial area,5.27,8.47
+madhya pradesh,satna,residential,4.49,7.25
+madhya pradesh,singrauli,residential,17.86,24.09
+madhya pradesh,ujjain,industrial area,16.07,16.67
+madhya pradesh,ujjain,residential,9.3,10.53
+madhya pradesh,ujjain,sensitive area,12.53,13.19
+maharashtra,akola,industrial area,8.95,10.57
+maharashtra,akola,residential,7.47,8.8
+maharashtra,amravati,industrial area,11.22,13.38
+maharashtra,amravati,residential,11.11,13.36
+maharashtra,aurangabad,residential,10.36,34.63
+maharashtra,aurangabad,sensitive area,8.82,30.39
+maharashtra,aurangabad (ms),residential,6.67,22.37
+maharashtra,aurangabad (ms),sensitive area,5.8,17.76
+maharashtra,badlapur,industrial area,27.14,64.18
+maharashtra,bombay,industrial area,28.6,32.83
+maharashtra,bombay,residential,17.13,28.56
+maharashtra,chandrapur,industrial area,20.93,28.34
+maharashtra,chandrapur,residential,20.21,31.2
+maharashtra,dombivli,industrial area,31.85,62.69
+maharashtra,greater mumbai,industrial area,31.8,44.0
+maharashtra,greater mumbai,residential,23.26,37.75
+maharashtra,jalgaon,industrial area,26.41,53.81
+maharashtra,jalgaon,residential,16.14,39.88
+maharashtra,jalna,industrial area,10.36,29.83
+maharashtra,jalna,residential,8.96,28.76
+maharashtra,kolhapur,residential,15.3,26.01
+maharashtra,latur,industrial area,6.5,16.6
+maharashtra,latur,residential,6.6,16.95
+maharashtra,lote,industrial area,23.54,17.19
+maharashtra,lote,residential,19.78,17.98
+maharashtra,mahad,industrial area,19.99,39.68
+maharashtra,mahad,residential,17.67,35.62
+maharashtra,mumbai,industrial area,5.52,26.95
+maharashtra,mumbai,residential,6.3,31.26
+maharashtra,nagpur,industrial area,9.91,28.83
+maharashtra,nagpur,residential,8.88,28.46
+maharashtra,nanded,industrial area,62.13,62.08
+maharashtra,nanded,residential,26.04,24.68
+maharashtra,nashik,industrial area,28.32,27.45
+maharashtra,nashik,residential,26.68,27.13
+maharashtra,navi mumbai,industrial area,20.64,43.18
+maharashtra,navi mumbai,residential,15.66,38.37
+maharashtra,pune,industrial area,28.19,41.55
+maharashtra,pune,residential,22.91,46.51
+maharashtra,roha,industrial area,19.09,33.59
+maharashtra,roha,residential,18.37,35.12
+maharashtra,sangli,industrial area,11.99,37.43
+maharashtra,sangli,residential,10.37,40.32
+maharashtra,solapur,industrial area,16.5,36.14
+maharashtra,solapur,residential,16.72,36.54
+maharashtra,tarapur,industrial area,22.86,33.55
+maharashtra,thane,industrial area,15.14,24.67
+maharashtra,thane,residential,14.47,23.13
+maharashtra,ulhasnagar,residential,31.27,59.78
+manipur,imphal,residential,3.9,21.68
+meghalaya,byrnihat,industrial area,45.48,16.68
+meghalaya,dawki,residential,2.4,9.28
+meghalaya,khliehriat,residential,2.0,5.5
+meghalaya,nongstoin,residential,2.0,8.81
+meghalaya,shillong,residential,2.6,11.14
+meghalaya,tura,residential,2.0,5.84
+meghalaya,umsning,industrial area,2.0,13.47
+mizoram,aizawl,residential,2.09,7.74
+mizoram,champhai,residential,2.03,4.84
+mizoram,kolasib,residential,2.02,4.86
+mizoram,lunglei,residential,2.19,4.95
+nagaland,dimapur,residential,2.11,8.28
+nagaland,kohima,residential,2.0,4.84
+odisha,angul,industrial area,7.05,18.89
+odisha,angul,residential,7.36,19.15
+odisha,balasore,industrial area,7.38,14.16
+odisha,balasore,residential,2.01,11.82
+odisha,berhampur,residential,2.03,17.04
+odisha,bhubaneshwar,residential,7.91,27.2
+odisha,bhubaneswar,residential,2.07,16.98
+odisha,cuttack,residential,2.48,27.28
+odisha,kalinga nagar,industrial area,2.01,10.07
+odisha,kalinga nagar,residential,2.02,10.25
+odisha,keonjhar,residential,2.0,13.21
+odisha,konark,residential,2.04,13.26
+odisha,paradeep,industrial area,11.23,11.59
+odisha,paradeep,residential,10.81,12.54
+odisha,puri,residential,2.29,17.14
+odisha,rayagada,industrial area,3.35,18.28
+odisha,rayagada,residential,3.13,18.01
+odisha,rourkela,residential,5.57,10.67
+odisha,sambalpur,residential,3.64,14.32
+odisha,talcher,industrial area,9.6,20.73
+puducherry,karaikal,industrial area,15.98,11.39
+puducherry,karaikal,residential,12.83,9.6
+puducherry,pondicherry,industrial area,10.86,14.81
+puducherry,pondicherry,residential,8.17,12.41
+puducherry,pondichery,industrial area,57.19,51.55
+puducherry,pondichery,residential,16.93,26.31
+punjab,amritsar,industrial area,13.71,36.54
+punjab,amritsar,residential,13.38,35.24
+punjab,bathinda,industrial area,8.86,21.92
+punjab,dera baba,residential,7.13,13.3
+punjab,dera bassi,industrial area,8.51,22.88
+punjab,faridkot,residential,4.6,14.76
+punjab,gobindgarh,industrial area,11.35,32.65
+punjab,gobindgarh,residential,10.65,33.1
+punjab,hoshiarpur,residential,7.27,14.59
+punjab,jalandhar,industrial area,13.15,29.96
+punjab,jalandhar,residential,11.67,26.83
+punjab,khanna,industrial area,10.38,30.66
+punjab,khanna,residential,10.04,29.88
+punjab,ludhiana,industrial area,12.27,32.47
+punjab,ludhiana,residential,12.18,34.32
+punjab,naya nangal,residential,7.42,20.27
+punjab,patiala,industrial area,6.38,17.54
+punjab,patiala,residential,6.37,17.87
+punjab,sangrur,residential,4.76,12.92
+rajasthan,alwar,industrial area,9.33,21.53
+rajasthan,alwar,residential,8.03,21.64
+rajasthan,chittorgarh,industrial area,20.66,50.89
+rajasthan,jaipur,industrial area,7.9,33.85
+rajasthan,jaipur,residential,6.54,34.8
+rajasthan,jodhpur,industrial area,6.96,23.11
+rajasthan,jodhpur,residential,6.43,22.54
+rajasthan,kota,industrial area,9.68,35.43
+rajasthan,kota,residential,7.75,29.83
+rajasthan,kota,sensitive area,11.09,47.77
+rajasthan,udaipur,industrial area,7.84,38.95
+rajasthan,udaipur,residential,6.59,33.68
+sikkim,gangtok,residential,19.8,26.8
+tamil nadu,chennai,industrial area,12.96,19.34
+tamil nadu,chennai,residential,10.17,19.43
+tamil nadu,coimbatore,industrial area,6.43,33.71
+tamil nadu,coimbatore,residential,5.3,27.93
+tamil nadu,cuddalore,industrial area,7.83,18.49
+tamil nadu,cuddalore,residential,9.75,20.42
+tamil nadu,madras,industrial area,19.03,16.4
+tamil nadu,madras,residential,8.35,15.0
+tamil nadu,madurai,industrial area,12.31,25.18
+tamil nadu,madurai,residential,10.59,24.01
+tamil nadu,mettur,industrial area,9.33,26.67
+tamil nadu,mettur,residential,7.47,21.4
+tamil nadu,salem,residential,8.16,25.8
+tamil nadu,thoothukudi,industrial area,17.19,18.01
+tamil nadu,thoothukudi,residential,17.52,16.33
+tamil nadu,trichy,residential,13.76,18.2
+tamil nadu,turicorin,residential,13.47,10.9
+tamil nadu,tuticorin,industrial area,4.12,14.17
+telangana,hyderabad,industrial area,4.78,26.25
+telangana,hyderabad,residential,4.66,23.2
+telangana,hyderabad,sensitive area,4.39,18.25
+telangana,karimnagar,residential,7.09,14.97
+telangana,khammam,residential,5.02,13.95
+telangana,kothur,industrial area,8.98,17.27
+telangana,nalgonda,industrial area,7.27,25.5
+telangana,nalgonda,residential,5.48,20.49
+telangana,patancheru,residential,5.32,24.52
+telangana,ramagundam,residential,6.24,14.62
+telangana,sangareddy,industrial area,7.07,46.09
+telangana,sangareddy,residential,5.01,19.8
+telangana,warangal,residential,5.22,11.9
+uttar pradesh,agra,industrial area,9.78,12.55
+uttar pradesh,agra,residential,8.86,10.74
+uttar pradesh,agra,sensitive area,4.46,23.62
+uttar pradesh,allahabad,residential,5.44,29.7
+uttar pradesh,anpara,industrial area,22.49,31.83
+uttar pradesh,bareilly,residential,12.32,31.18
+uttar pradesh,dehradoon,industrial area,22.55,20.85
+uttar pradesh,dehradoon,residential,21.7,20.48
+uttar pradesh,firozabad,industrial area,18.15,31.98
+uttar pradesh,firozabad,residential,16.04,29.67
+uttar pradesh,gajraula,industrial area,22.24,22.99
+uttar pradesh,gajraula,residential,20.64,28.22
+uttar pradesh,gajroula,industrial area,54.81,34.93
+uttar pradesh,gajroula,residential,40.39,26.89
+uttar pradesh,ghaziabad,industrial area,24.35,29.91
+uttar pradesh,gorakhpur,industrial area,23.57,45.37
+uttar pradesh,gorakhpur,residential,16.33,29.6
+uttar pradesh,jhansi,residential,8.02,23.99
+uttar pradesh,kanpur,industrial area,8.42,28.99
+uttar pradesh,kanpur,residential,7.24,27.75
+uttar pradesh,khurja,industrial area,31.82,28.97
+uttar pradesh,khurja,residential,26.57,24.22
+uttar pradesh,lucknow,industrial area,9.65,31.93
+uttar pradesh,lucknow,residential,8.97,31.26
+uttar pradesh,mathura,industrial area,24.39,28.61
+uttar pradesh,mathura,residential,19.06,24.91
+uttar pradesh,meerut,residential,7.37,44.22
+uttar pradesh,moradabad,residential,15.44,25.57
+uttar pradesh,noida,industrial area,13.84,46.12
+uttar pradesh,noida,residential,12.97,42.33
+uttar pradesh,rai bareilly,industrial area,10.48,15.45
+uttar pradesh,rai bareilly,residential,10.85,15.61
+uttar pradesh,renusagar,industrial area,17.44,28.45
+uttar pradesh,saharanpur,residential,28.37,20.28
+uttar pradesh,unnao,industrial area,13.57,31.51
+uttar pradesh,unnao,residential,8.33,28.3
+uttar pradesh,varanasi,residential,17.12,21.9
+uttarakhand,dehradun,industrial area,25.08,27.53
+uttarakhand,dehradun,residential,25.27,27.91
+uttarakhand,haldwani,residential,16.8,24.1
+uttarakhand,haridwar,industrial area,25.73,27.75
+uttarakhand,kashipur,residential,24.92,29.25
+uttarakhand,rishikesh,residential,23.18,25.9
+uttarakhand,rudrapur,industrial area,4.24,7.28
+uttaranchal,dehradun,industrial area,19.95,21.64
+uttaranchal,dehradun,residential,25.24,27.79
+west bengal,asansol,industrial area,7.68,58.3
+west bengal,barrackpore,industrial area,13.4,57.84
+west bengal,barrackpore,residential,16.83,60.95
+west bengal,calcutta,industrial area,38.47,46.87
+west bengal,calcutta,residential,19.58,48.8
+west bengal,dankuni,residential,15.09,43.68
+west bengal,durgapur,industrial area,8.35,66.18
+west bengal,durgapur,residential,7.88,54.37
+west bengal,durgapur (wb),industrial area,9.39,64.45
+west bengal,durgapur (wb),residential,5.7,48.12
+west bengal,haldia,residential,19.27,50.06
+west bengal,haldia,industrial area,11.79,45.91
+west bengal,haldia,residential,5.07,15.3
+west bengal,howrah,industrial area,22.51,88.61
+west bengal,howrah,residential,10.59,61.63
+west bengal,kalyani,residential,2.89,36.04
+west bengal,kolkata,industrial area,10.93,70.85
+west bengal,kolkata,residential,10.0,56.04
+west bengal,maldah,residential,2.51,16.35
+west bengal,raniganj,industrial area,34.64,58.86
+west bengal,siliguri,residential,3.29,17.93
+west bengal,sankrail,industrial area,9.99,60.83
+west bengal,sankrail,residential,8.91,53.8
+west bengal,south suburban,industrial area,14.46,45.79
+west bengal,south suburban,residential,10.66,46.34
+west bengal,uluberia,residential,14.62,43.32
