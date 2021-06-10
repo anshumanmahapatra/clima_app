@@ -5,7 +5,6 @@ import 'package:clima_app/Screens/Quiz/quiz_results.dart';
 import 'package:flutter/material.dart';
 
 class PlayQuiz extends StatefulWidget {
-
   final String quizTitle;
   final int quizId;
 
@@ -18,15 +17,13 @@ class PlayQuiz extends StatefulWidget {
 int total = 0, _correct = 0, _incorrect = 0;
 
 class _PlayQuizState extends State<PlayQuiz> {
-
   List<Map<String, String>> quizData;
 
   QuestionModel getQuestionModelFromDataSnapshot(int index) {
     QuestionModel questionModel = new QuestionModel();
-    if(widget.quizId == 0) {
+    if (widget.quizId == 0) {
       quizData = quizQuestionAnswer1;
-    }
-    else {
+    } else {
       quizData = quizQuestionAnswer2;
     }
     questionModel.question = quizData[index]["question"];
@@ -49,54 +46,49 @@ class _PlayQuizState extends State<PlayQuiz> {
 
   @override
   Widget build(BuildContext context) {
-
     print(widget.quizId);
 
     return Scaffold(
-      appBar:AppBar(
+      appBar: AppBar(
         title: Text(widget.quizTitle),
         backgroundColor: Color(0xFF229062),
         centerTitle: true,
         elevation: 0.0,
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            ListView.builder(
-                padding: EdgeInsets.only(top: 20, left: 10, right: 10),
-                shrinkWrap: true,
-                physics: ClampingScrollPhysics(),
-                itemCount: 5,
-                itemBuilder: (context, index)  {
-                  return QuizPlayTile(
-                    questionModel: getQuestionModelFromDataSnapshot(index),
-                    index: index,
-                  );
-                }
-            )
-          ],),
+      body: ListWheelScrollView.useDelegate(
+        itemExtent: 300,
+        childDelegate: ListWheelChildBuilderDelegate(
+          childCount: 5,
+          builder: (context, index) {
+            return QuizPlayTile(
+              questionModel: getQuestionModelFromDataSnapshot(index),
+              index: index,
+            );
+          },
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.check_sharp),
         backgroundColor: Color(0xFF229062),
         onPressed: () {
           String youAre = "";
-          if(_correct<=2) {
+          if (_correct <= 2) {
             youAre = "A Novice";
           } else if (_correct == 3) {
             youAre = "Lazy to Learn New Things";
-          }
-          else {
+          } else {
             youAre = "Highly Knowledgeable";
           }
-          Navigator.pushReplacement(context, MaterialPageRoute(builder:
-              (context) => Results(
-            quizId: widget.quizId,
-            correct: _correct,
-            incorrect: _incorrect,
-            total: total,
-            youAre: youAre,
-          )));
+          Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => Results(
+                        quizId: widget.quizId,
+                        correct: _correct,
+                        incorrect: _incorrect,
+                        total: total,
+                        youAre: youAre,
+                      )));
         },
       ),
     );
@@ -104,9 +96,9 @@ class _PlayQuizState extends State<PlayQuiz> {
 }
 
 class QuizPlayTile extends StatefulWidget {
-
   final QuestionModel questionModel;
   final int index;
+
   QuizPlayTile({this.questionModel, this.index});
 
   @override
@@ -114,7 +106,6 @@ class QuizPlayTile extends StatefulWidget {
 }
 
 class _QuizPlayTileState extends State<QuizPlayTile> {
-
   String optionSelected = "";
 
   @override
@@ -127,29 +118,30 @@ class _QuizPlayTileState extends State<QuizPlayTile> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Q${widget.index+1} ${widget.questionModel.question}",
+              Text(
+                "Q${widget.index + 1} ${widget.questionModel.question}",
                 style: TextStyle(
                   fontSize: 18,
                   color: Colors.black,
-                ),),
-              SizedBox(height: 12,),
+                ),
+              ),
+              SizedBox(
+                height: 12,
+              ),
               GestureDetector(
                 onTap: () {
-                  if(!widget.questionModel.answered) {
-                    if(widget.questionModel.option1 == widget.questionModel.correctOption) {
+                  if (!widget.questionModel.answered) {
+                    if (widget.questionModel.option1 ==
+                        widget.questionModel.correctOption) {
                       optionSelected = widget.questionModel.option1;
                       widget.questionModel.answered = true;
                       _correct++;
-                      setState(() {
-
-                      });
-                    }else {
+                      setState(() {});
+                    } else {
                       optionSelected = widget.questionModel.option1;
                       widget.questionModel.answered = true;
                       _incorrect++;
-                      setState(() {
-
-                      });
+                      setState(() {});
                     }
                   }
                 },
@@ -161,22 +153,19 @@ class _QuizPlayTileState extends State<QuizPlayTile> {
                 ),
               ),
               GestureDetector(
-                onTap: (){
-                  if(!widget.questionModel.answered) {
-                    if(widget.questionModel.option2 == widget.questionModel.correctOption) {
+                onTap: () {
+                  if (!widget.questionModel.answered) {
+                    if (widget.questionModel.option2 ==
+                        widget.questionModel.correctOption) {
                       optionSelected = widget.questionModel.option2;
                       widget.questionModel.answered = true;
                       _correct++;
-                      setState(() {
-
-                      });
-                    }else {
+                      setState(() {});
+                    } else {
                       optionSelected = widget.questionModel.option2;
                       widget.questionModel.answered = true;
                       _incorrect++;
-                      setState(() {
-
-                      });
+                      setState(() {});
                     }
                   }
                 },
@@ -188,22 +177,19 @@ class _QuizPlayTileState extends State<QuizPlayTile> {
                 ),
               ),
               GestureDetector(
-                onTap: (){
-                  if(!widget.questionModel.answered) {
-                    if(widget.questionModel.option3 == widget.questionModel.correctOption) {
+                onTap: () {
+                  if (!widget.questionModel.answered) {
+                    if (widget.questionModel.option3 ==
+                        widget.questionModel.correctOption) {
                       optionSelected = widget.questionModel.option3;
                       widget.questionModel.answered = true;
                       _correct++;
-                      setState(() {
-
-                      });
-                    }else {
+                      setState(() {});
+                    } else {
                       optionSelected = widget.questionModel.option3;
                       widget.questionModel.answered = true;
                       _incorrect++;
-                      setState(() {
-
-                      });
+                      setState(() {});
                     }
                   }
                 },
@@ -215,22 +201,19 @@ class _QuizPlayTileState extends State<QuizPlayTile> {
                 ),
               ),
               GestureDetector(
-                onTap: (){
-                  if(!widget.questionModel.answered) {
-                    if(widget.questionModel.option4 == widget.questionModel.correctOption) {
+                onTap: () {
+                  if (!widget.questionModel.answered) {
+                    if (widget.questionModel.option4 ==
+                        widget.questionModel.correctOption) {
                       optionSelected = widget.questionModel.option4;
                       widget.questionModel.answered = true;
                       _correct++;
-                      setState(() {
-
-                      });
-                    }else {
+                      setState(() {});
+                    } else {
                       optionSelected = widget.questionModel.option4;
                       widget.questionModel.answered = true;
                       _incorrect++;
-                      setState(() {
-
-                      });
+                      setState(() {});
                     }
                   }
                 },
@@ -241,12 +224,11 @@ class _QuizPlayTileState extends State<QuizPlayTile> {
                   optionSelected: optionSelected,
                 ),
               ),
-              SizedBox(height: 10,),
+              SizedBox(
+                height: 10,
+              ),
             ],
-          )
-      ),
+          )),
     );
   }
 }
-
-

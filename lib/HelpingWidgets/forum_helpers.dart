@@ -65,16 +65,6 @@ class ForumHelpers with ChangeNotifier {
                     height: 5,
                   ),
                   Container(
-                    decoration: BoxDecoration(
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black38,
-                          offset: Offset(0, 18),
-                          blurRadius: 40,
-                          spreadRadius: -12,
-                        ),
-                      ],
-                    ),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
                       child: Image.network(

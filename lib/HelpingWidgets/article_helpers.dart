@@ -27,16 +27,6 @@ class _ArticleBlogTileState extends State<ArticleBlogTile> {
           children: <Widget>[
             Container(
               height: 220,
-              decoration: BoxDecoration(
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black38,
-                    offset: Offset(0, 18),
-                    blurRadius: 40,
-                    spreadRadius: -12,
-                  ),
-                ],
-              ),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: Image.network(widget.imgUrl,
@@ -126,16 +116,6 @@ class _ArticleTileState extends State<ArticleTile> {
           children: <Widget>[
             Container(
               height: 220,
-              decoration: BoxDecoration(
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black38,
-                    offset: Offset(0, 18),
-                    blurRadius: 40,
-                    spreadRadius: -12,
-                  ),
-                ],
-              ),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: Image.network(widget.imgUrl,

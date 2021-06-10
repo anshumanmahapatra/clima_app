@@ -47,16 +47,6 @@ class _YoutubeVideoTileState extends State<YoutubeVideoTile> {
           children: <Widget>[
             Container(
               height: 180,
-              decoration: BoxDecoration(
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black38,
-                    offset: Offset(0, 18),
-                    blurRadius: 40,
-                    spreadRadius: -12,
-                  ),
-                ],
-              ),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: Image.network(widget.imgUrl,
